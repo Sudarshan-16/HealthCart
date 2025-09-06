@@ -1,0 +1,256 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  margin-right:200px;
+
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #2c3e50;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  width:100%;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 60%;
+  padding: 10px;
+  border: 2px solid #3498db;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.search-bar button:hover {
+  background: #2980b9;
+}
+
+/* Medicine Results */
+.medicine-list {
+  list-style: none;
+  padding: 0;
+  margin-top:10px;
+  
+}
+
+.medicine-list li {
+  
+  background: white;
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+}
+
+/* Admin Panel */
+.admin-panel {
+  margin-top: 40px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.admin-panel h2 {
+  color: #e74c3c;
+  margin-bottom: 15px;
+}
+
+.admin-panel input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.admin-panel button {
+  padding: 10px 15px;
+  margin: 5px;
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.admin-panel button:hover {
+  background: #1e8449;
+}
+
+.admin-panel ul {
+  margin-top: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.admin-panel li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fdfdfd;
+  padding: 12px;
+  border: 1px solid #ddd;
+  margin: 5px 0;
+  border-radius: 8px;
+}
+
+.admin-login {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.admin-login h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.admin-login input {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.admin-login button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.admin-login button:hover {
+  background: #2980b9;
+}
+
+.login-box {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.login-box input {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background: #2980b9;
+}
+
+.logout-btn {
+  margin-top: 20px;
+
+  padding: 10px 20px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #c0392b;
+}
+
+.filters {
+  margin: 15px 0;
+  
+  padding: 10px;
+  background: #fdfdfd;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.filters label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.filters select {
+  margin-left: 8px;
+  padding: 5px;
+}
+
+.med{
+  border-left: 250px;
+}
+.hea{
+  justify-content: center;
+  margin-left:200px ;
+}
+.health {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical align if needed */
+  margin: 20px 0;
+  width: 100%;             /* take full width */
+  text-align: center;
+}
+
+.health h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
